@@ -1,0 +1,13 @@
+{
+    "name": "jamorn.pe/m",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "Jamorn Pengsuay",
+        "email": "jamorn07@gmail.com"
+    }],
+    "require": {}
+}
