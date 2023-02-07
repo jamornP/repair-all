@@ -15,10 +15,10 @@
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="/m/pages/member/profile.php"><i class="material-icons">person</i>Profile</a></li>
+                            <li><a href="/repair-all/pages/member/profile.php"><i class="material-icons">person</i>Profile</a></li>
                             <li role="separator" class="divider"></li>
                             
-                            <li><a href="/m/pages/auth/sign_out.php"><i class="material-icons">input</i>Sign Out</a></li>
+                            <li><a href="/repair-all/pages/auth/sign_out.php"><i class="material-icons">input</i>Sign Out</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active">
-                        <a href="/m/index.php">
+                        <a href="/repair-all/index.php">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
@@ -44,19 +44,19 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="/m/pages/repair/computer.php">เครื่องคอมพิวเตอร์เจ้าหน้าที่</a>
+                                <a href="/repair-all/pages/repair/computer.php">เครื่องคอมพิวเตอร์เจ้าหน้าที่</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/computer-classroom.php">เครื่องคอมพิวเตอร์ห้องเรียน</a>
+                                <a href="/repair-all/pages/repair/computer-classroom.php">เครื่องคอมพิวเตอร์ห้องเรียน</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/electricity.php">ไฟฟ้าและประปา</a>
+                                <a href="/repair-all/pages/repair/electricity.php">ไฟฟ้าและประปา</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/air.php">เครื่องปรับอากาศ</a>
+                                <a href="/repair-all/pages/repair/air.php">เครื่องปรับอากาศ</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/test.php">test</a>
+                                <a href="/repair-all/pages/repair/test.php">test</a>
                             </li>
                         </ul>
                     </li>
@@ -79,7 +79,7 @@
                             }
                             ?>
                             <li>
-                                <a href="/m/pages/manage/report.php">
+                                <a href="/repair-all/pages/manage/report.php">
                                     <i class="material-icons">library_books</i>
                                     <span>รายงาน</span>
                                 </a>
@@ -96,15 +96,15 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="/m/pages/admin/all-users.php">All</a>
+                                        <a href="/repair-all/pages/admin/all-users.php">All</a>
                                     </li>
                                     <li>
-                                        <a href="/m/pages/admin/reset-password.php">Reset Password</a>
+                                        <a href="/repair-all/pages/admin/reset-password.php">Reset Password</a>
                                     </li>                               
                                 </ul>
                             </li>
                             <li>
-                                <a href="/m/pages/admin/menu.php">
+                                <a href="/repair-all/pages/admin/menu.php">
                                     <i class="material-icons">list</i>
                                     <span>Menu</span>
                                 </a>

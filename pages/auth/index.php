@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Sign In | Bootstrap Based Admin Template - Material Design</title>
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/link-css.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/link-css.php";?>
 </head>
 
 <body class="login-page font-kanit">

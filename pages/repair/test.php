@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Jquery DataTable | Bootstrap Based Admin Template - Material Design</title>
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/link-css.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/link-css.php";?>
 </head>
 
 <body class="theme-red">
@@ -1292,7 +1292,7 @@
         </div>
     </section>
 
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/script-js.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/script-js.php";?>
 </body>
 
 </html>

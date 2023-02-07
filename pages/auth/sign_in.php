@@ -1,6 +1,6 @@
 
-<?php require $_SERVER['DOCUMENT_ROOT']."/m/function/function.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT']."/m/vendor/autoload.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/function/function.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/vendor/autoload.php";?>
 <?php
 use App\Model\Repair\Repair;
 $repairObj = new Repair;

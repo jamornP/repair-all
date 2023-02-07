@@ -24,13 +24,16 @@ class ComposerStaticInit222daa01c0be20ff053495ad48c43bdb
         'App\\Database\\DbRepair' => __DIR__ . '/../..' . '/src/Database/DbRepair.php',
         'App\\Model\\Repair\\Air' => __DIR__ . '/../..' . '/src/Model/Repair/Air.php',
         'App\\Model\\Repair\\Building' => __DIR__ . '/../..' . '/src/Model/Repair/Building.php',
+        'App\\Model\\Repair\\Datastatus' => __DIR__ . '/../..' . '/src/Model/Repair/Datastatus.php',
         'App\\Model\\Repair\\Department' => __DIR__ . '/../..' . '/src/Model/Repair/Department.php',
         'App\\Model\\Repair\\Floor' => __DIR__ . '/../..' . '/src/Model/Repair/Floor.php',
+        'App\\Model\\Repair\\Menu' => __DIR__ . '/../..' . '/src/Model/Repair/Menu.php',
         'App\\Model\\Repair\\Nature' => __DIR__ . '/../..' . '/src/Model/Repair/Nature.php',
         'App\\Model\\Repair\\Repair' => __DIR__ . '/../..' . '/src/Model/Repair/Repair.php',
         'App\\Model\\Repair\\Room' => __DIR__ . '/../..' . '/src/Model/Repair/Room.php',
         'App\\Model\\Repair\\Status' => __DIR__ . '/../..' . '/src/Model/Repair/Status.php',
         'App\\Model\\Repair\\Type' => __DIR__ . '/../..' . '/src/Model/Repair/Type.php',
+        'App\\Model\\Repair\\Users' => __DIR__ . '/../..' . '/src/Model/Repair/Users.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

@@ -15,10 +15,10 @@
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="/m/pages/member/profile.php"><i class="material-icons">person</i>Profile</a></li>
+                            <li><a href="/repair-all/pages/member/profile.php"><i class="material-icons">person</i>Profile</a></li>
                             <li role="separator" class="divider"></li>
                             
-                            <li><a href="/m/pages/auth/sign_out.php"><i class="material-icons">input</i>Sign Out</a></li>
+                            <li><a href="/repair-all/pages/auth/sign_out.php"><i class="material-icons">input</i>Sign Out</a></li>
                         </ul>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active">
-                        <a href="/m/index.php">
+                        <a href="/repair-all/index.php">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
@@ -44,19 +44,19 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="/m/pages/repair/computer.php">เครื่องคอมพิวเตอร์เจ้าหน้าที่</a>
+                                <a href="/repair-all/pages/repair/computer.php">เครื่องคอมพิวเตอร์เจ้าหน้าที่</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/computer-classroom.php">เครื่องคอมพิวเตอร์ห้องเรียน</a>
+                                <a href="/repair-all/pages/repair/computer-classroom.php">เครื่องคอมพิวเตอร์ห้องเรียน</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/electricity.php">ไฟฟ้าและประปา</a>
+                                <a href="/repair-all/pages/repair/electricity.php">ไฟฟ้าและประปา</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/air.php">เครื่องปรับอากาศ</a>
+                                <a href="/repair-all/pages/repair/air.php">เครื่องปรับอากาศ</a>
                             </li>
                             <li>
-                                <a href="/m/pages/repair/test.php">test</a>
+                                <a href="/repair-all/pages/repair/test.php">test</a>
                             </li>
                         </ul>
                     </li>
@@ -71,7 +71,7 @@
                             if($_SESSION['st_type']=='electricity' OR $_SESSION['st_status']=='administrator' OR $_SESSION['st_type']=='building'){
                                 ?>
                                 <li>
-                                    <a href="/m/pages/manage/m_electricity.php">
+                                    <a href="/repair-all/pages/manage/m_electricity.php">
                                         <i class="material-icons">layers</i>
                                         <span>ไฟฟ้าและประปา</span>
                                     </a>
@@ -81,7 +81,7 @@
                             if($_SESSION['st_type']=='computer' OR $_SESSION['st_status']=='administrator'){
                                 ?>
                                 <li>
-                                    <a href="/m/pages/manage/m_electricity.php">
+                                    <a href="/repair-all/pages/manage/m_electricity.php">
                                         <i class="material-icons">layers</i>
                                         <span>คอมพิวเตอร์เจ้าหน้าที่</span>
                                     </a>
@@ -91,7 +91,7 @@
                             if($_SESSION['st_type']=='classroom' OR $_SESSION['st_status']=='administrator'){
                                 ?>
                                 <li>
-                                    <a href="/m/pages/manage/m_electricity.php">
+                                    <a href="/repair-all/pages/manage/m_electricity.php">
                                         <i class="material-icons">layers</i>
                                         <span>คอมพิวเตอร์ห้องเรียน</span>
                                     </a>
@@ -101,7 +101,7 @@
                             if($_SESSION['st_type']=='air' OR $_SESSION['st_status']=='administrator' OR $_SESSION['st_type']=='building'){
                                 ?>
                                 <li>
-                                    <a href="/m/pages/manage/m_electricity.php">
+                                    <a href="/repair-all/pages/manage/m_electricity.php">
                                         <i class="material-icons">layers</i>
                                         <span>เครื่องปรับอากาศ</span>
                                     </a>
@@ -111,7 +111,7 @@
                         }
                     ?>
                                 <li>
-                                    <a href="/m/pages/manage/report.php">
+                                    <a href="/repair-all/pages/manage/report.php">
                                         <i class="material-icons">library_books</i>
                                         <span>รายงาน</span>
                                     </a>
@@ -127,16 +127,16 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="/m/pages/admin/all-users.php">All</a>
+                                        <a href="/repair-all/pages/admin/all-users.php">All</a>
                                     </li>
                                     <li>
-                                        <a href="/m/pages/admin/reset-password.php">Reset Password</a>
+                                        <a href="/repair-all/pages/admin/reset-password.php">Reset Password</a>
                                     </li>
                                     <li>
-                                        <a href="/m/pages/admin/menu.php">Menu</a>
+                                        <a href="/repair-all/pages/admin/menu.php">Menu</a>
                                     </li>
                                     <li>
-                                        <a href="/m/pages/admin/manage.php">Manage</a>
+                                        <a href="/repair-all/pages/admin/manage.php">Manage</a>
                                     </li>
                                    
                                 </ul>
@@ -154,19 +154,19 @@
                     <ul class="list">
                         <li class="header">MAIN NAVIGATION</li>
                         <li class="active">
-                            <a href="/m/index.php">
+                            <a href="/repair-all/index.php">
                                 <i class="material-icons">home</i>
                                 <span>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/m/pages/typography.html">
+                            <a href="/repair-all/pages/typography.html">
                                 <i class="material-icons">text_fields</i>
                                 <span>Typography</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/m/pages/helper-classes.html">
+                            <a href="/repair-all/pages/helper-classes.html">
                                 <i class="material-icons">layers</i>
                                 <span>Helper Classes</span>
                             </a>
@@ -183,13 +183,13 @@
                                     </a>
                                     <ul class="ml-menu">
                                         <li>
-                                            <a href="/m/pages/widgets/cards/basic.html">Basic</a>
+                                            <a href="/repair-all/pages/widgets/cards/basic.html">Basic</a>
                                         </li>
                                         <li>
-                                            <a href="/m/pages/widgets/cards/colored.html">Colored</a>
+                                            <a href="/repair-all/pages/widgets/cards/colored.html">Colored</a>
                                         </li>
                                         <li>
-                                            <a href="/m/pages/widgets/cards/no-header.html">No Header</a>
+                                            <a href="/repair-all/pages/widgets/cards/no-header.html">No Header</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -199,19 +199,19 @@
                                     </a>
                                     <ul class="ml-menu">
                                         <li>
-                                            <a href="/m/pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                            <a href="/repair-all/pages/widgets/infobox/infobox-1.html">Infobox-1</a>
                                         </li>
                                         <li>
-                                            <a href="/m/pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                            <a href="/repair-all/pages/widgets/infobox/infobox-2.html">Infobox-2</a>
                                         </li>
                                         <li>
-                                            <a href="/m/pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                            <a href="/repair-all/pages/widgets/infobox/infobox-3.html">Infobox-3</a>
                                         </li>
                                         <li>
-                                            <a href="/m/pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                            <a href="/repair-all/pages/widgets/infobox/infobox-4.html">Infobox-4</a>
                                         </li>
                                         <li>
-                                            <a href="/m/pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                            <a href="/repair-all/pages/widgets/infobox/infobox-5.html">Infobox-5</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -224,74 +224,74 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/ui/alerts.html">Alerts</a>
+                                    <a href="/repair-all/pages/ui/alerts.html">Alerts</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/animations.html">Animations</a>
+                                    <a href="/repair-all/pages/ui/animations.html">Animations</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/badges.html">Badges</a>
+                                    <a href="/repair-all/pages/ui/badges.html">Badges</a>
                                 </li>
 
                                 <li>
-                                    <a href="/m/pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                                    <a href="/repair-all/pages/ui/breadcrumbs.html">Breadcrumbs</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/buttons.html">Buttons</a>
+                                    <a href="/repair-all/pages/ui/buttons.html">Buttons</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/collapse.html">Collapse</a>
+                                    <a href="/repair-all/pages/ui/collapse.html">Collapse</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/colors.html">Colors</a>
+                                    <a href="/repair-all/pages/ui/colors.html">Colors</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/dialogs.html">Dialogs</a>
+                                    <a href="/repair-all/pages/ui/dialogs.html">Dialogs</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/icons.html">Icons</a>
+                                    <a href="/repair-all/pages/ui/icons.html">Icons</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/labels.html">Labels</a>
+                                    <a href="/repair-all/pages/ui/labels.html">Labels</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/list-group.html">List Group</a>
+                                    <a href="/repair-all/pages/ui/list-group.html">List Group</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/media-object.html">Media Object</a>
+                                    <a href="/repair-all/pages/ui/media-object.html">Media Object</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/modals.html">Modals</a>
+                                    <a href="/repair-all/pages/ui/modals.html">Modals</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/notifications.html">Notifications</a>
+                                    <a href="/repair-all/pages/ui/notifications.html">Notifications</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/pagination.html">Pagination</a>
+                                    <a href="/repair-all/pages/ui/pagination.html">Pagination</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/preloaders.html">Preloaders</a>
+                                    <a href="/repair-all/pages/ui/preloaders.html">Preloaders</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/progressbars.html">Progress Bars</a>
+                                    <a href="/repair-all/pages/ui/progressbars.html">Progress Bars</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/range-sliders.html">Range Sliders</a>
+                                    <a href="/repair-all/pages/ui/range-sliders.html">Range Sliders</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/sortable-nestable.html">Sortable & Nestable</a>
+                                    <a href="/repair-all/pages/ui/sortable-nestable.html">Sortable & Nestable</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/tabs.html">Tabs</a>
+                                    <a href="/repair-all/pages/ui/tabs.html">Tabs</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/thumbnails.html">Thumbnails</a>
+                                    <a href="/repair-all/pages/ui/thumbnails.html">Thumbnails</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
+                                    <a href="/repair-all/pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/ui/waves.html">Waves</a>
+                                    <a href="/repair-all/pages/ui/waves.html">Waves</a>
                                 </li>
                             </ul>
                         </li>
@@ -302,22 +302,22 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                                    <a href="/repair-all/pages/forms/basic-form-elements.html">Basic Form Elements</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                                    <a href="/repair-all/pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/forms/form-examples.html">Form Examples</a>
+                                    <a href="/repair-all/pages/forms/form-examples.html">Form Examples</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/forms/form-validation.html">Form Validation</a>
+                                    <a href="/repair-all/pages/forms/form-validation.html">Form Validation</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/forms/form-wizard.html">Form Wizard</a>
+                                    <a href="/repair-all/pages/forms/form-wizard.html">Form Wizard</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/forms/editors.html">Editors</a>
+                                    <a href="/repair-all/pages/forms/editors.html">Editors</a>
                                 </li>
                             </ul>
                         </li>
@@ -328,13 +328,13 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/tables/normal-tables.html">Normal Tables</a>
+                                    <a href="/repair-all/pages/tables/normal-tables.html">Normal Tables</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/tables/jquery-datatable.html">Jquery Datatables</a>
+                                    <a href="/repair-all/pages/tables/jquery-datatable.html">Jquery Datatables</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/tables/editable-table.html">Editable Tables</a>
+                                    <a href="/repair-all/pages/tables/editable-table.html">Editable Tables</a>
                                 </li>
                             </ul>
                         </li>
@@ -345,10 +345,10 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/medias/image-gallery.html">Image Gallery</a>
+                                    <a href="/repair-all/pages/medias/image-gallery.html">Image Gallery</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/medias/carousel.html">Carousel</a>
+                                    <a href="/repair-all/pages/medias/carousel.html">Carousel</a>
                                 </li>
                             </ul>
                         </li>
@@ -359,19 +359,19 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/charts/morris.html">Morris</a>
+                                    <a href="/repair-all/pages/charts/morris.html">Morris</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/charts/flot.html">Flot</a>
+                                    <a href="/repair-all/pages/charts/flot.html">Flot</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/charts/chartjs.html">ChartJS</a>
+                                    <a href="/repair-all/pages/charts/chartjs.html">ChartJS</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/charts/sparkline.html">Sparkline</a>
+                                    <a href="/repair-all/pages/charts/sparkline.html">Sparkline</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/charts/jquery-knob.html">Jquery Knob</a>
+                                    <a href="/repair-all/pages/charts/jquery-knob.html">Jquery Knob</a>
                                 </li>
                             </ul>
                         </li>
@@ -382,25 +382,25 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/examples/profile.html">Profile</a>
+                                    <a href="/repair-all/pages/examples/profile.html">Profile</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/examples/sign-in.html">Sign In</a>
+                                    <a href="/repair-all/pages/examples/sign-in.html">Sign In</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/examples/sign-up.html">Sign Up</a>
+                                    <a href="/repair-all/pages/examples/sign-up.html">Sign Up</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/examples/forgot-password.html">Forgot Password</a>
+                                    <a href="/repair-all/pages/examples/forgot-password.html">Forgot Password</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/examples/blank.html">Blank Page</a>
+                                    <a href="/repair-all/pages/examples/blank.html">Blank Page</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/examples/404.html">404 - Not Found</a>
+                                    <a href="/repair-all/pages/examples/404.html">404 - Not Found</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/examples/500.html">500 - Server Error</a>
+                                    <a href="/repair-all/pages/examples/500.html">500 - Server Error</a>
                                 </li>
                             </ul>
                         </li>
@@ -411,13 +411,13 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="/m/pages/maps/google.html">Google Map</a>
+                                    <a href="/repair-all/pages/maps/google.html">Google Map</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/maps/yandex.html">YandexMap</a>
+                                    <a href="/repair-all/pages/maps/yandex.html">YandexMap</a>
                                 </li>
                                 <li>
-                                    <a href="/m/pages/maps/jvectormap.html">jVectorMap</a>
+                                    <a href="/repair-all/pages/maps/jvectormap.html">jVectorMap</a>
                                 </li>
                             </ul>
                         </li>
@@ -464,7 +464,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="/m/pages/changelogs.html">
+                            <a href="/repair-all/pages/changelogs.html">
                                 <i class="material-icons">update</i>
                                 <span>Changelogs</span>
                             </a>

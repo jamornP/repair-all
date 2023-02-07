@@ -31,7 +31,7 @@ class Users extends DbRepair {
         $_SESSION['d_id']=$userDB['d_id'];
         $_SESSION['tel']=$userDB['tel'];
         $_SESSION['login'] = true;
-        $_SESSION['image']="/m/images/user.png";
+        $_SESSION['image']="/repair-all/images/user.png";
         
 
         return true;

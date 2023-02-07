@@ -9,13 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>App Science KMITL</title>
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/link-css.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/link-css.php";?>
 </head>
 
 <body class="theme-deep-orange font-kanit">
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/page-loader.php";?>
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/navbar.php";?>
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/s-left-right.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/page-loader.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/navbar.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/s-left-right.php";?>
 
     <section class="content">
         <div class="container-fluid">
@@ -96,7 +96,7 @@
         </div>
     </section>
     
-    <?php require $_SERVER['DOCUMENT_ROOT']."/m/component/script-js.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/repair-all/component/script-js.php";?>
 </body>
 
 </html>
