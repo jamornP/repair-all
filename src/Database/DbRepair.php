@@ -5,8 +5,8 @@ use PDO;
 
 class DbRepair{
     private $host = "localhost";
-	private $user = "root";
-	private $password = "";
+	private $user = "usersci";
+	private $password = "sciencepwd";
 	private $dbName = "db_repair";
 
 	protected $pdo;

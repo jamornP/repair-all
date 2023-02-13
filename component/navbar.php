@@ -46,7 +46,7 @@ $_SESSION['notifi'] = $notifi;
                             if(isset($_SESSION['notifi']) AND $_SESSION['notifi'] > 0 ){
                                 echo "
                                 <a href='javascript:void(0);' class='dropdown-toggle' data-toggle='dropdown' role='button'>
-                                    <i class='material-icons col-red'>notifications</i>
+                                    <i class='material-icons'>notifications</i>
                                     <span class='label-count'>{$_SESSION['notifi']}</span>
                                 </a>
                                 ";
@@ -62,6 +62,8 @@ $_SESSION['notifi'] = $notifi;
                         
                         <ul class="dropdown-menu">
                             <li class="header">รายการแจ้งซ่อมใหม่</li>
+                            
+                            <p style="margin: 10px;">dfsdfdsf</p>
                             <li class="body">
                                 <ul class="menu">
                                     <?php
@@ -72,7 +74,7 @@ $_SESSION['notifi'] = $notifi;
                                             $r_id = go($data['r_id']);
                                             echo "
                                             <li>
-                                                <a href='/m/pages/manage/m_{$_SESSION['st_type']}.php?id={$r_id}'>
+                                                <a href='/repair-all/pages/manage/m_{$_SESSION['st_type']}.php?id={$r_id}'>
                                                     <div class='icon-circle bg-orange'>
                                                         <i class='material-icons'>person_add</i>
                                                     </div>

@@ -22,13 +22,13 @@ $ck = $usersObj->checkUser($_POST);
 if($ck){
     echo "  
         <script type='text/javascript'>
-            setTimeout(function(){location.href='/m/pages/repair'} , 500);
+            setTimeout(function(){location.href='/repair-all/pages/repair'} , 500);
         </script>
     ";
 }else{
     echo "  
         <script type='text/javascript'>
-            setTimeout(function(){location.href='/m/pages/auth'} , 500);
+            setTimeout(function(){location.href='/repair-all/pages/auth'} , 500);
         </script>
     ";
 }

@@ -4,7 +4,7 @@
     if(!($_SESSION['st_status']=="administrator")){
         echo "  
             <script type='text/javascript'>
-                setTimeout(function(){location.href='/m/pages/repair'} , 500);
+                setTimeout(function(){location.href='/repair-all/pages/repair'} , 500);
             </script>
         ";
     }
@@ -53,7 +53,7 @@
                                             </div>";
                                         echo "  
                                             <script type='text/javascript'>
-                                                setTimeout(function(){location.href='/m/pages/admin/menu.php'} , 2000);
+                                                setTimeout(function(){location.href='/repair-all/pages/admin/menu.php'} , 2000);
                                             </script>
                                         ";
                                     }

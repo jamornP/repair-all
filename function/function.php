@@ -220,6 +220,7 @@ function to($data){
     return $code;
 }
 function btStatus($data){
+    $s="";
     foreach($data as $c){
         $ds['s_id'] = $c['s_id'];
         $ds['s_name'] = $c['s_name'];

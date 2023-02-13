@@ -39,7 +39,7 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                         </div>
                         <div class="content">
                             <div class="text fs-18">งานที่เรียบร้อย</div>
-                            <div class="number"><?php echo $success;?></div>
+                            <div class="number"><?php echo $success."/".$all;?></div>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                         </div>
                         <div class="content">
                             <div class="text fs-18">งานค้าง</div>
-                            <div class="number"><?php echo $danger;?></div>
+                            <div class="number"><?php echo $danger."/".$all;?></div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                         </div>
                         <div class="content">
                             <div class="text fs-18">งานรออะไหล่</div>
-                            <div class="number"><?php echo $wait;?></div>
+                            <div class="number"><?php echo $wait."/".$all;?></div>
                         </div>
                     </div>
                 </div>
@@ -73,21 +73,21 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                         </div>
                         <div class="content">
                             <div class="text fs-18">งานจ้างเหมา</div>
-                            <div class="number"><?php echo $company;?></div>
+                            <div class="number"><?php echo $company."/".$all;?></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <!-- <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box bg-blue hover-zoom-effect">
                         <div class="icon">
                             <i class="material-icons">email</i>
                         </div>
                         <div class="content">
                             <div class="text fs-18">รายการแจ้งซ่อมทั้งหมด</div>
-                            <div class="number"><?php echo $all;?></div>
+                            <div class="number"><?php //echo $all;?></div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <?php
                 if(isset($_GET['id'])){
@@ -129,7 +129,7 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                                         <?php
                                             $r_id =to($_GET['id']);
                                             $data = $repairObj->getRepairByYearId(yearterm(date("Y-m-d")),to($_GET['id']));
-                                            print_r($datar);
+                                            // print_r($data);
                                             $i=0;
                                             
                                                 $i++;
@@ -188,48 +188,48 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                                     </a> -->
                                 </div>
                             </div>
-                            <div class="body table-responsive">
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th width="2%" scope="col">#</th>
-                                            <th width="6%" scope="col">วันที่</th>
-                                            <th width="50%" scope="col">รายละเอียด</th>
-                                            <th width="" scope="col">ระยะเวลา</th>
-                                            <th width="10%" scope="col">สถานะ</th>
-                                            <th width="" scope="col">ผู้บันทึก</th>
-                                            <th width="" scope="col"></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php
-                                            $dataSt = $datastatusObj->getDsByRid($r_id);
-                                            // print_r($dataSt);
-                                            foreach($dataSt as $row){
-                                                $date = datethai_time($row['date_update']);
-                                                $ds2['s_id'] = $row['s_id'];
-                                                $ds2['s_name'] = $row['s_name'];
-                                                $das2 = statusRepair($ds2);
-                                                ?>
-                                                    <tr>
-                                                        <th scope='row'><?php echo $row['ds_num'];?></th>
-                                                        <td class='fs-10 text-center'><?php echo $date;?></td>
-                                                        <td><?php echo $row['ds_remark'];?></td>
-                                                        <td class=''><?php echo $row['ds_count_time'];?></td>
-                                                        <td class=''><?php echo $das2['bt'];?> <?php echo $row['s_name'];?></td>
-                                                        <td class=''><i class='material-icons btn btn-xs'>person</i> <?php echo $row['name_TH'];?></td>
-                                                        <td class=' align-justify'>
-                                                            <button class="btn btn-xs btn-warning" onclick="myFunction(<?php echo $row['ds_id'];?>,'<?php echo $row['ds_remark'];?>')"><i class="material-icons fs-12">settings</i></button>
-                                                        </td>
-                                                    </tr>
-                                                ";
-                                                <?php
-                                            }
-                                        ?>
-                                        
-                                    </tbody>
-                                </table>
-
+                            <div class="body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th width="2%" scope="col">#</th>
+                                                <th width="6%" scope="col">วันที่</th>
+                                                <th width="50%" scope="col">รายละเอียด</th>
+                                                <th width="" scope="col">ระยะเวลา</th>
+                                                <th width="10%" scope="col">สถานะ</th>
+                                                <th width="" scope="col">ผู้บันทึก</th>
+                                                <th width="" scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                                $dataSt = $datastatusObj->getDsByRid($r_id);
+                                                // print_r($dataSt);
+                                                foreach($dataSt as $row){
+                                                    $date = datethai_time($row['date_update']);
+                                                    $ds2['s_id'] = $row['s_id'];
+                                                    $ds2['s_name'] = $row['s_name'];
+                                                    $das2 = statusRepair($ds2);
+                                                    ?>
+                                                        <tr>
+                                                            <th scope='row'><?php echo $row['ds_num'];?></th>
+                                                            <td class='fs-10 text-center'><?php echo $date;?></td>
+                                                            <td><?php echo $row['ds_remark'];?></td>
+                                                            <td class=''><?php echo $row['ds_count_time'];?></td>
+                                                            <td class=''><?php echo $das2['bt'];?> <?php echo $row['s_name'];?></td>
+                                                            <td class=''><i class='material-icons btn btn-xs'>person</i> <?php echo $row['name_TH'];?></td>
+                                                            <td class=' align-justify'>
+                                                                <button class="btn btn-xs btn-warning" onclick="myFunction(<?php echo $row['ds_id'];?>,'<?php echo $row['ds_remark'];?>')"><i class="material-icons fs-12">settings</i></button>
+                                                            </td>
+                                                        </tr>
+                                                    <?php
+                                                }
+                                            ?>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,7 @@ if($_SESSION['st_status']<>"staff" AND $_SESSION['st_status']<>"administrator"){
                                                         <td class='fs-12'>{$data['fullname']}</td>
                                                         <td class='fs-12 align-justify'>{$s} {$data['s_name']}</td>
                                                         <td class=' align-justify'>
-                                                            <a href='/m/pages/manage/m_electricity.php?id={$r_idl}'>
+                                                            <a href='/repair-all/pages/manage/m_electricity.php?id={$r_idl}'>
                                                                 <i class='material-icons'>settings</i>
                                                             </a>
                                                         </td>

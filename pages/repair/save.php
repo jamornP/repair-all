@@ -70,7 +70,7 @@
                                 </div>";
                             echo "  
                                 <script type='text/javascript'>
-                                    setTimeout(function(){location.href='/m/pages/repair/electricity.php'} , 1000);
+                                    setTimeout(function(){location.href='/repair-all/pages/repair/electricity.php'} , 1000);
                                 </script>
                             ";
                             break;
@@ -87,7 +87,7 @@
                 }else{
                     echo "
                         <script type='text/javascript'>
-                            setTimeout(function(){location.href='/m/pages/repair/electricity.php'} , 1000);
+                            setTimeout(function(){location.href='/repair-all/pages/repair/electricity.php'} , 1000);
                         </script>
                     ";
                 }

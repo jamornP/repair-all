@@ -29,6 +29,7 @@
                 $i =1;
                 foreach($dataMenu as $menu){
                     $s['s_id'] = $i++;
+                    $s['s_name'] = "menu";
                     $datacolor = statusRepair($s);
                     echo "
                         <a href='{$menu['link']}'>

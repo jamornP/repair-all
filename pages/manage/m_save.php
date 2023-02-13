@@ -67,13 +67,13 @@
                                 </div>";
                             echo "  
                                 <script type='text/javascript'>
-                                    setTimeout(function(){location.href='/m/pages/manage/m_electricity.php?id={$r_idl}'} , 1000);
+                                    setTimeout(function(){location.href='/repair-all/pages/manage/m_electricity.php?id={$r_idl}'} , 1000);
                                 </script>
                             ";
                         }
                         if($_POST['action']=="edit"){
                             unset($_POST['action']);
-                            print_r($_POST);
+                            // print_r($_POST);
                             $r_idl = go($_POST['r_id']);
                             unset($_POST['r_id']);
                             $cku_e = $datastatusObj->updateDataStatus($_POST);
@@ -88,7 +88,7 @@
                                 </div>";
                             echo "  
                                 <script type='text/javascript'>
-                                    setTimeout(function(){location.href='/m/pages/manage/m_electricity.php?id={$r_idl}'} , 1000);
+                                    setTimeout(function(){location.href='/repair-all/pages/manage/m_electricity.php?id={$r_idl}'} , 1000);
                                 </script>
                             ";
                         }

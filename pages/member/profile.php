@@ -142,7 +142,7 @@
                                     </div>";
                                 echo "  
                                     <script type='text/javascript'>
-                                        setTimeout(function(){location.href='/m/pages/member/profile.php'} , 2000);
+                                        setTimeout(function(){location.href='/repair-all/pages/member/profile.php'} , 2000);
                                     </script>
                                 ";
                             }
@@ -178,7 +178,7 @@
                                     </div>";
                                 echo "  
                                     <script type='text/javascript'>
-                                        setTimeout(function(){location.href='/m/pages/member/profile.php'} , 2000);
+                                        setTimeout(function(){location.href='/repair-all/pages/member/profile.php'} , 2000);
                                     </script>
                                 ";
                             }else{

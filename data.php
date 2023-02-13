@@ -1,15 +1,15 @@
 <?php
 
 $staff =array(
-    ['id'=>'1','name'=>'ศักดา ตราช่าง','email'=>'sakda.tr@kmitl.ac.th','image'=>'/m/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
-    ['id'=>'2','name'=>'พงษ์พันธ์ ขุนทอง','email'=>'phongphan.ku@kmitl.ac.th','image'=>'/m/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
-    ['id'=>'3','name'=>'จามร เพ็งสวย','email'=>'jamorn.pe@kmitl.ac.th','image'=>'/m/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
-    ['id'=>'4','name'=>'สุรเดช ครุภันฑ์','email'=>'','image'=>'/m/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
-    ['id'=>'5','name'=>'อชิรญา รุจิระกุล','email'=>'achirayu.ru@kmitl.ac.th','image'=>'/m/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
-    ['id'=>'6','name'=>'ชัชวาลย์ เป็นสุข','email'=>'','image'=>'/m/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
-    ['id'=>'7','name'=>'วัชระ สิริพิพัฒน์กุล','email'=>'','image'=>'/m/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
-    ['id'=>'8','name'=>'สถาพร ริสยาม','email'=>'','image'=>'/m/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
-    ['id'=>'9','name'=>'ภัควรัญชญ์ จำปาทิว','email'=>'','image'=>'/m/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234']
+    ['id'=>'1','name'=>'ศักดา ตราช่าง','email'=>'sakda.tr@kmitl.ac.th','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
+    ['id'=>'2','name'=>'พงษ์พันธ์ ขุนทอง','email'=>'phongphan.ku@kmitl.ac.th','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
+    ['id'=>'3','name'=>'จามร เพ็งสวย','email'=>'jamorn.pe@kmitl.ac.th','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
+    ['id'=>'4','name'=>'สุรเดช ครุภันฑ์','email'=>'','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'นักวิชาการคอมพิวเตอร์','status'=>'staff','password'=>'1234'],
+    ['id'=>'5','name'=>'อชิรญา รุจิระกุล','email'=>'achirayu.ru@kmitl.ac.th','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
+    ['id'=>'6','name'=>'ชัชวาลย์ เป็นสุข','email'=>'','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
+    ['id'=>'7','name'=>'วัชระ สิริพิพัฒน์กุล','email'=>'','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
+    ['id'=>'8','name'=>'สถาพร ริสยาม','email'=>'','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234'],
+    ['id'=>'9','name'=>'ภัควรัญชญ์ จำปาทิว','email'=>'','image'=>'/repair-all/images/staff/1-4.jpg','position'=>'','status'=>'staff','password'=>'1234']
 );
 $data2=array(
     ['id'=>'1','num'=>'1','detail'=>'คอมพิวเตอร์เจ้าหน้าที่'],

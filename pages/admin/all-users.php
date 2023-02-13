@@ -3,7 +3,7 @@
     if(!($_SESSION['st_status']=="administrator")){
         echo "  
             <script type='text/javascript'>
-                setTimeout(function(){location.href='/m/pages/repair'} , 500);
+                setTimeout(function(){location.href='/repair-all/pages/repair'} , 500);
             </script>
         ";
     }
@@ -129,7 +129,7 @@
                                                     <td class=''>{$pass}</td>
                                                     <td class=''>{$data2['tel']}</td>
                                                     <td class=''> 
-                                                        <a href='/m/pages/admin/manage.php?id={$data2['st_id']}'>
+                                                        <a href='/repair-all/pages/admin/manage.php?id={$data2['s_id']}'>
                                                             <i class='material-icons fs-19'>settings</i>
                                                         </a>
                                                     </td>
